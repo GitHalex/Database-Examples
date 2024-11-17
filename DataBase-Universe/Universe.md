@@ -31,3 +31,7 @@
 - id_moon **(PK)** SERIAL
 - cantidad_moon INT
 - Type
+
+### cometa
+
+- hoa
