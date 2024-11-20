@@ -25,13 +25,21 @@
 - Tiene_Luna BOOLEAN
 - id_moon **(FG)** REFERENCES mooon
 
-### mooon
+### mooon **(EC)**
 
 - name VARCHAR(30)
 - id_moon **(PK)** SERIAL
 - cantidad_moon INT
 - Type
 
-### cometa
+## Relaciones
 
-- hoa
+1, una **carrera** _pertenece_ aun **tipode carrera** (_1 a 1_)
+
+## Diagramas
+
+### modelo entidad - relacion
+
+![Modelo Entidad - Relacion] (./universeModeloe-R.png)
+
+### Modelo Relacional de la BD
