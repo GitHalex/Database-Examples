@@ -2,7 +2,7 @@
 
 ## Listado de entidades
 
-### Clientes
+### Clientes **(ED)**
 
 - cliente_id **(PK)**
 - nombre
@@ -12,9 +12,9 @@
 - direccion
 - cp
 - ciudad
-- pais **(PK)**
+- pais **(FK)**
 
-### productos
+### productos **(ED)**
 
 - producto_id **(PK)**
 - nombre
@@ -24,6 +24,17 @@
 - cantidad
 
 ### ventas
+
+- venta_id **(PK)**
+- cliente_id **(FK)**
+- fecha
+- monto
+
+### articulos_x_venta **(EP)**
+
+- articulo_id **(PK)**
+- venta_id **(FK)**
+- producto_id **(FK)**
 
 ### pais **EC**
 
