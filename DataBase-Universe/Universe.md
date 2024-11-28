@@ -43,3 +43,29 @@
 ![Modelo Entidad - Relacion] (./universeModeloe-R.png)
 
 ### Modelo Relacional de la BD
+
+## Reglas de Negocio
+
+### carreras
+
+1. Crear el registro de una carrera
+2. Leer el registro de una(s) carrera(s) dada una condicion en particular
+3. Leer todos los registros de la entidad carreras.
+4. Actualizar los datos de una carrera dada una condicion en particular
+5. Eliminar los datos de una carrera dada una condicion en particular
+
+### tipos_carreras **(EC)**
+
+1. Crear el registro de un tipo de carrera
+2. Leer el registro de uno(s) tipos de carrera(s) dada una condicion en particular
+3. Leer todos los registros de la entidad tipos carreras.
+4. Actualizar los datos de un tipo de carrera dada una condicion en particular
+5. Eliminar los datos de una carrera dada una condicion en particular
+
+### paises **(EC)**
+
+1. Crear el registro de un pais
+2. Leer el registro de un(os) paise(s) dada una condicion en particular
+3. Leer todos los registros de la entidad paises.
+4. Actualizar los datos de una pais dada una condicion en particular
+5. Eliminar los datos de una pais dada una condicion en particular
